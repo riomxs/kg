@@ -1,0 +1,475 @@
+@font-face {
+	font-family: "Lato";
+	src:url(fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Fjalla One";
+	src:url(fonts/FjallaOne-Regular.ttf);
+}
+
+
+@font-face {
+	font-family: "Myriad Pro";
+	src:url(fonts/MyriadPro-Regular.otf);
+}
+
+@font-face {
+	font-family: "BrandonGrotesque-Bold";
+	src:url(fonts/BrandonGrotesque-Bold.ttf);
+}
+
+@font-face {
+	font-family: "Open-Sans";
+	src:url(fonts\OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Source Sans Pro";
+	src:url(fonts/SourceSansPro-Regular.ttf);
+}
+
+* {
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #29606b;
+}
+
+.First{
+	background-image: url(images/bg.png);
+	background-position:  center;
+	background-repeat: no-repeat;
+	min-height: 594px;
+}
+
+header {
+	background-color: rgba(41,96,107,0.3);
+	border:1px #296b78 solid;
+	max-width: 1170px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 67px;
+}
+
+.logo {
+	display: flex;
+	align-items:center; 
+	width: 100%;
+	max-width: 138px;
+	justify-content: center;
+}
+header .logo h1 {
+font-size: 25px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Fjalla One";
+
+}
+
+header ul {
+	display: flex;
+min-height: 67px;
+align-items: center;
+}
+header  ul li {
+font-size: 17px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Fjalla One";
+list-style: none;
+width: 100%;
+width: 100px;
+text-align: center;
+}
+
+
+header  ul li:hover {
+cursor: pointer;
+}
+
+
+.ContainerH {
+	height: 466px;	
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ContainerH h1 {
+	width: 100%;
+	max-width: 670px;
+	font-size: 41px;
+letter-spacing: 5px;
+text-align: center;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Fjalla One";
+}
+
+
+.ContainerH p {
+	font-size: 31px;
+letter-spacing: 5px;
+text-align: center;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Fjalla One";
+margin-top: 10px;
+}
+.ContainerH p.xfdfed {
+	margin-top: 10px;
+	width: 100%;
+	max-width: 142px;
+	height: 56px;	
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Fjalla One";
+	    background-image: url(images/btn.png);
+    background-repeat: no-repeat;
+}
+.Second {
+
+	margin-top:-75px;
+}
+
+.SecondDiv2 div {
+padding-top: 100px;
+	text-align: center;
+	width: 100%;
+	max-width: 585px;
+	height: 336px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.Second1 {
+	background-color: #e84c3d;
+}
+
+
+.Second2 {
+	background-color: #fdbd1f;
+}
+
+
+.Second3 {
+	background-color: #1bbc9b;
+}
+
+
+.Second4 {
+	background-color: #9b58b5;
+}
+
+
+.Second div img {
+	border-radius: 100%;
+	background-color: #fff;
+}
+
+.Second div h1 {
+font-size: 29px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Fjalla One";
+text-align: center;
+}
+
+.Second div p {
+	color: #ffffff;
+font-weight: 400;
+max-width: 300px;
+width: 100%;
+font-family: "Source Sans Pro";
+text-align: center;
+}
+
+.Third {
+	min-height: 790px;
+	display: flex;
+	flex-direction: column;
+}
+ h2 {
+	min-height: 140px;
+	font-size: 29px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Fjalla One";
+text-align: center;
+padding-top: 80px;
+}
+
+.Third p.Phird {
+	font-size: 21px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Fjalla One";
+text-align: center;
+min-height: 100px;
+}
+.Four p {
+	font-size: 21px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Fjalla One";
+text-align: center;
+min-height: 100px;
+}
+
+ p.Phird::before {
+	content: "‾‾‾‾‾‾‾‾‾‾‾‾‾";
+	color: #387d89;
+	padding-right: 15px;	 
+}
+
+ p.Phird::after {
+	content: "‾‾‾‾‾‾‾‾‾‾‾‾‾";
+	color: #387d89;
+	padding-left: 15px;	 
+}
+
+.Third .container .Thirddiv div	 {
+	padding-top: 48px;
+	width: 100%;
+	max-width: 370px;
+	min-height:496px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #245963;
+	flex-wrap: wrap;
+}
+
+.Third div p.CVCV  {
+    width: 100%;
+	max-width: 309px;
+height: 175px;
+font-size: 16px;
+line-height: 26px;
+color: #76b2be;
+font-weight: 400;
+font-family: "Source Sans Pro";
+text-align: center;
+}
+
+.Third1 {
+	border-top:9px solid #e84c3d;
+}
+
+.Third2 {
+	border-top:9px solid #fdbd1f;
+}
+
+.Third3 {
+	border-top:9px solid #1bbc9b;
+}
+
+
+.Third div button	 {
+	max-width: 102px;
+min-height: 46px;
+width: 100%;
+font-size: 15px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Fjalla One";
+text-align: center;
+border:0	;
+position: relative;
+}
+
+.Thirddiv .Third1 button {
+background-color: #e84c3d;	
+}
+
+
+.Thirddiv .Third2 button {
+	background-color: #fdbd1f;	
+}
+
+.Thirddiv .Third3 button {
+	background-color: #1bbc9b;	
+}
+.Third div button::after {
+	content: "";
+position: absolute;
+top: 46px;
+left: 41px;
+   width: 0px;
+   height:0px;
+   border-style: solid;
+   border-width: 0 10px 10px 10px;
+   transform: rotate(180deg);
+}
+
+.Third1 button::after {
+   border-color: transparent transparent #e84c3d transparent;
+}
+.Third2 button::after {
+   border-color: transparent transparent #fdbd1f transparent;
+}
+.Third3 button::after {
+   border-color: transparent transparent #1bbc9b transparent;
+}
+
+
+.Thirddiv {
+	min-height: 496px;
+display: flex;
+justify-content: space-between;
+}
+
+
+.Four .container img {
+	background-color: #fff;
+	border-radius: 100%;
+}
+
+
+.PHP {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.Inputs2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	min-height: 210px;	
+	width: 100%;
+	max-width: 570px;
+}
+
+input.FINPUT {
+	min-height: 46px;
+	background-color: #245963;
+	border:1px solid #377d89;z
+}
+
+input.SINPUT {
+	width: 100%;
+	margin-top: 20px;
+	max-width: 570px;
+	min-height: 126px;
+	background-color: #245963;
+	border:1px solid #377d89;
+}
+
+
+
+.PHP button {
+width: 100%;
+	max-width: 122px;
+	min-height: 56px;	
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Fjalla One";
+ border:2px solid #377d89;
+margin:10px auto;
+ background-color: #245963;
+}
+
+footer {
+	margin-top:150px;
+	background-color: #245963;
+}
+.Ffo {
+		display: flex;
+		justify-content: center;
+	min-height: 115px;	
+	max-width: 1170px;
+	width: 100%;
+	align-items: center;
+
+}
+footer p {
+	color: #fff;
+	padding-left: 10px;
+
+}
+footer img {
+	background-color: #fff;
+	border-radius: 100%;
+	min-height: 36px;
+    margin-left: 10px;
+}
+
+.Ffo::after {
+	position: absolute;
+	top: 2774px;
+		content: "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾";
+	color: #387d89;
+	padding-right: 15px;	
+}
+
+
+.p2p2   {
+		display: flex;
+		justify-content: center;
+	min-height: 100px;	
+	align-items: center;
+}
+
+.p2p2 p {
+	font-size: 16px;
+line-height: 26px;
+font-weight: 400;
+font-family: "Source Sans Pro";
+text-align: center;
+}
+
+
+.yellow {
+	color: #fdbd1f;
+}
+
+
+.SecondDiv2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+@media screen and (max-width: 1170px){
+	.SecondDiv2{
+		justify-content: center;
+	}
+	.Thirddiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	}
+
+	.FINPUT {
+		width: 100%;
+        
+	}
+}
